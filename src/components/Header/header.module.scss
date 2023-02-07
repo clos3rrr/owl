@@ -1,0 +1,11 @@
+.header {
+    height: 50px;
+
+    &__back {
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+        font-weight: bold;
+        font-size: 25px;
+    }
+}

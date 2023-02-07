@@ -1,0 +1,25 @@
+.userList {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        .name {
+            cursor: pointer;
+            font-weight: bold;
+        }
+    }
+
+    &__item + &__item {
+        margin-top: 10px;
+    }
+
+    &__search {
+        margin-bottom: 20px;
+    }
+}
